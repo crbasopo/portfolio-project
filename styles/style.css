@@ -16,23 +16,74 @@
   font-style: normal;
 }
 
-.montserrat-alternates-regular {
+.montserrat-alternates-semibold {
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
+
+
 */
 
 h1 {
-  color: black;
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
-  font-size: 96;
+  font-size: 96px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-weight: normal;
+}
+
+.hero {
+  background: rgba(255, 184, 164, 0.11);
+  text-align: center;
+  padding: 84px 0;
+}
+
+.hero p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 2;
+}
+
+.btn-branding1 {
+  background: #ffb8a4;
+  border-radius: 10px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.btn-branding2 {
+  background: #000000;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  text-align: center;
 }
