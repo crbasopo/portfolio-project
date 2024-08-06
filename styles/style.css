@@ -30,18 +30,29 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .hero {
   background: rgba(255, 184, 164, 0.11);
   text-align: center;
   padding: 84px 0;
+  margin-bottom: 60px;
 }
 
 .hero p {
@@ -69,7 +80,7 @@ p {
   font-style: normal;
   font-size: 16px;
   line-height: 27px;
-  margin: 0 auto;
+  margin-right: 35px;
   padding: 12px 20px;
   text-align: center;
 }
@@ -86,4 +97,38 @@ p {
   margin: 0 auto;
   padding: 12px 20px;
   text-align: center;
+}
+
+.btn-branding-outline {
+  background: #000000;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.different-button {
+  background: #ffb8a4;
+  color: #000000;
+}
+
+.project-description {
+  padding: 135px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.4;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
