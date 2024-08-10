@@ -48,6 +48,37 @@ p {
   line-height: 1.7;
 }
 
+.logo {
+  max-width: 170px;
+}
+
+nav{
+    padding: 20px 0;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover{
+    color: #ffb8a4;
+}
+
 .hero {
   background: rgba(255, 184, 164, 0.11);
   text-align: center;
@@ -71,36 +102,33 @@ p {
   line-height: 2;
 }
 
-.content-container{
-    padding: 160px 20px;
+.content-container {
+  padding: 160px 20px;
 }
 
-.content-container h1{
-    font-size: 64px;
-    line-height: 1;
-    
+.content-container h1 {
+  font-size: 64px;
+  line-height: 1;
 }
 
-.content-container h2{
-    font-size: 25px;
+.content-container h2 {
+  font-size: 25px;
 }
 
-
-.content-container img{
-    border-radius: 2%;
+.content-container img {
+  border-radius: 2%;
 }
 
-.content{
-    margin: 30px;
+.content {
+  margin: 30px;
 }
 
-.content h3{
-    font-family: "Poppins", sans-serif;
+.content h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 24px;
 }
-
 
 .btn-branding1 {
   background: #ffb8a4;
@@ -114,6 +142,12 @@ p {
   margin-right: 35px;
   padding: 12px 20px;
   text-align: center;
+}
+
+.btn-branding1:hover{
+    color:white;
+    background:#294022;
+    
 }
 
 .btn-branding2 {
@@ -159,18 +193,21 @@ p {
     line-height: 56px;
   }
 
-  .hero{
+  .hero {
     padding: 80px 20px;
   }
 
-.content-container{
+  .content-container {
     text-align: center;
     padding: 0;
-}
+  }
 
   .project-description {
     padding: 0;
     text-align: center;
   }
-}
 
+  nav a{
+    font-size: 14px;
+  }
+}
