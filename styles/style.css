@@ -40,6 +40,11 @@ h2 {
   font-style: normal;
 }
 
+h4{
+    color: #000000;
+    font-size: 40px;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -52,31 +57,30 @@ p {
   max-width: 170px;
 }
 
-nav{
-    padding: 20px 0;
-
+nav {
+  padding: 20px 0;
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-nav li{
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 10px;
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
 }
 
-nav a{
-    text-decoration: none;
-    color: #000000;
-    transition: all 100ms ease-in-out;
+nav a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 100ms ease-in-out;
 }
 
-nav a:hover{
-    color: #ffb8a4;
+nav a:hover {
+  color: #ffb8a4;
 }
 
 .hero {
@@ -103,7 +107,7 @@ nav a:hover{
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -144,10 +148,9 @@ nav a:hover{
   text-align: center;
 }
 
-.btn-branding1:hover{
-    color:white;
-    background:#294022;
-    
+.btn-branding1:hover {
+  color: white;
+  background: #294022;
 }
 
 .btn-branding2 {
@@ -187,6 +190,49 @@ nav a:hover{
   padding: 135px 60px;
 }
 
+footer {
+  margin: 21px 0;
+}
+
+footer .contact-box {
+  background: #ffb8a4;
+  border-radius: 10px;
+  padding: 30px 100px;
+top: 623px;
+left: 130px;
+
+
+}
+
+
+footer .email-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+footer .email-link:hover {
+  color: #294022;
+}
+
+footer .social-links a {
+  margin: 0 16px;
+  color: #000000;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: #ffb8a4;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -207,7 +253,7 @@ nav a:hover{
     text-align: center;
   }
 
-  nav a{
+  nav a {
     font-size: 14px;
   }
 }
